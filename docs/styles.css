@@ -9,7 +9,7 @@ header {
  background-color: black;
 }
 
-button {
+.button {
   background-color: red;
   border: none;
   color: white;
@@ -23,7 +23,7 @@ button {
 }
 
 /* Style the topnav links */
-button a {
+.button a {
   float: left;
   display: block;
   color: white;
@@ -33,7 +33,7 @@ button a {
 }
 
 /* Change color on hover */
-button a:hover {
+.button a:hover {
   background-color: #ddd;
   color: black;
 }
