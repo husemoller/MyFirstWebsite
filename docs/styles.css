@@ -15,7 +15,7 @@ h1 {
   height: auto;
 }
 
-button {
+.button {
  font-family: Calibri,sans-serif;
  background-color: red;
  border: none;
@@ -33,12 +33,12 @@ button {
 }
 
 /* Change color on hover */
-button:hover {
+.button:hover {
   background-color: black;
   color: white;
 }
 
-button:active {
+.button:active {
   background-color: red;
   transform: translateY(4px);
 }
