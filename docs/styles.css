@@ -23,7 +23,7 @@ button {
 }
 
 /* Style the topnav links */
-.button a {
+button a {
   float: left;
   display: block;
   color: white;
@@ -33,7 +33,7 @@ button {
 }
 
 /* Change color on hover */
-.button a:hover {
+button a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -50,25 +50,4 @@ footer {
  padding: 10px;
  color: white;
  background-color: black;
-}
-
-section {
- margin: 5px;
- padding: 10px;
- background-color: lightgrey;
-}
-
-article {
- margin: 5px;
- padding: 10px;
- background-color: white;
-}
-
-nav ul {
- padding: 0;
-}
-
-nav ul li {
- display: inline;
- margin: 5px
 }
