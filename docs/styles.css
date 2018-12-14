@@ -2,24 +2,57 @@ body {
  font-family: Calibri,sans-serif;
  font-size: 1.0em;
 }
-header, footer {
+
+header {
  padding: 10px;
  color: white;
  background-color: black;
 }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer {
+ padding: 10px;
+ color: white;
+ background-color: black;
+}
+
 section {
  margin: 5px;
  padding: 10px;
  background-color: lightgrey;
 }
+
 article {
  margin: 5px;
  padding: 10px;
  background-color: white;
 }
+
 nav ul {
  padding: 0;
 }
+
 nav ul li {
  display: inline;
  margin: 5px
