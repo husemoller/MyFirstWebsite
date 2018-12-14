@@ -3,7 +3,7 @@ body {
  font-size: 1.0em;
 }
 
-header, h2 {
+h2 {
  padding: 10px;
  color: white;
  background-color: black;
@@ -55,4 +55,12 @@ footer {
  padding: 10px;
  color: white;
  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
