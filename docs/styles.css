@@ -22,18 +22,8 @@ header {
   cursor: pointer;
 }
 
-/* Style the topnav links */
-.button a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 /* Change color on hover */
-.button a:hover {
+.button:hover {
   background-color: #ddd;
   color: black;
 }
