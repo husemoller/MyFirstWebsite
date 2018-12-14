@@ -10,6 +10,7 @@ header {
 }
 
 button {
+  font-family: Calibri,sans-serif;
   background-color: red;
   border: none;
   color: white;
@@ -27,7 +28,12 @@ button {
 /* Change color on hover */
 button:hover {
   background-color: black;
-  color: black;
+  color: white;
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
 }
 
 img {
